@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container-resume {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 16px;
+    width: 236px;
+    margin-top: 46px;
+}
+
+.container-resume h1 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+    margin-bottom: 23px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container-resume .saldo {
+    margin-top: 16px;
+}
+
+.container-resume div {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+.container-resume .in {
+    color: #645FFB;
+}
+
+.container-resume .out {
+    color: #FA8C10;
+}
+
+.container-resume .balance{
+    color: #3A9FF1;
+}
+
+.container button {
+    all: unset;
+    box-sizing: border-box;
+    background: linear-gradient(91.26deg, #FA8C10 0%, #FF57D3 97.77%);
+    border-radius: 5px;
+    width: 236px;
+    height: 42px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
